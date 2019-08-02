@@ -1,3 +1,5 @@
+package 并发编程.demo;
+
 import java.util.Random;
 import java.util.concurrent.CyclicBarrier;
 

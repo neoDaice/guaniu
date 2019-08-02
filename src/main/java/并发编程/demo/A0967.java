@@ -1,3 +1,5 @@
+package 并发编程.demo;
+
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;

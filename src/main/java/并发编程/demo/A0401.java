@@ -1,3 +1,5 @@
+package 并发编程.demo;
+
 import org.junit.Test;
 
 import java.util.Random;

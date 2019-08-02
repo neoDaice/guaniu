@@ -1,3 +1,5 @@
+package 并发编程.demo;
+
 public class CocaCola {
     private int a;
     private static int b;

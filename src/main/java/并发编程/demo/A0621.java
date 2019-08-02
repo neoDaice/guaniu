@@ -1,3 +1,5 @@
+package 并发编程.demo;
+
 public class A0621 {
     public static void main(String[] args) {
         System.out.println(status.open.id);
