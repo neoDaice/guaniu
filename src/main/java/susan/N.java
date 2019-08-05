@@ -13,7 +13,7 @@ public class N {
          */
         while (true){
             String result = "";
-
+            
         }
     }
 }
