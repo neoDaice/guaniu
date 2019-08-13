@@ -18,5 +18,8 @@ public class 段坤 {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+        float a = 0.01f;
+        float b = a<1?1:a;
+        System.out.println(b);
     }
 }
