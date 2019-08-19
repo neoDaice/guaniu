@@ -17,18 +17,18 @@ public class Test {
     public static void main(String[] args) throws NotFoundException, CannotCompileException, NoSuchMethodException, IllegalAccessException, InvocationTargetException, InstantiationException, IOException {
         //使用javassist手动的创建字节码，实际中没有这么使用的
         ClassPool pool = ClassPool.getDefault();
-        CtClass cc = pool.makeClass("base.动态代理.StationProxy");
+        CtClass cc = pool.makeClass("StationProxy");
 
         //设置接口
-        CtClass interface1 = pool.get("base.动态代理.TicketService");
+        CtClass interface1 = pool.get("TicketService");
         cc.setInterfaces(new CtClass[]{interface1});
 
         //设置Field
-        CtField field = CtField.make("private base.动态代理.Station station;", cc);
+        CtField field = CtField.make("private Station station;", cc);
 
         cc.addField(field);
 
-        CtClass stationClass = pool.get("base.动态代理.Station");
+        CtClass stationClass = pool.get("Station");
         CtClass[] arrays = new CtClass[]{stationClass};
         CtConstructor ctc = CtNewConstructor.make(arrays,null,CtNewConstructor.PASS_NONE,null,null, cc);
         //设置构造函数内部信息
