@@ -1,4 +1,4 @@
-package susan;
+package algorithms.demo;
 
 public class A {
     /**

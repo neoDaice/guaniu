@@ -1,4 +1,4 @@
-package susan;
+package algorithms.demo;
 
 import java.util.HashMap;
 import java.util.LinkedHashMap;

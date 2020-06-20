@@ -1,4 +1,4 @@
-package susan;
+package algorithms.demo;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;

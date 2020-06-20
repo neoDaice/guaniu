@@ -1,4 +1,4 @@
-package susan;
+package algorithms.demo;
 
 /**
  * 有 n 个人围成一圈，顺序排号。从第一个人开始报数（从 1 报到 3），凡是报到 3 的人退出圈子，
